@@ -1,4 +1,4 @@
-# FamilyTree
+# familyrelations
 
 A small [networkx](https://networkx.org/)-backed Python library for building,
 querying, and printing family trees.
@@ -6,13 +6,13 @@ querying, and printing family trees.
 ## Install
 
 ```bash
-pip install familytree
+pip install familyrelations
 ```
 
 ## Quick start
 
 ```python
-from familytree import Human, Network
+from familyrelations import Human, Network
 
 tree = Network("Stark")
 

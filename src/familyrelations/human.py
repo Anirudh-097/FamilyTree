@@ -4,7 +4,7 @@ from __future__ import annotations
 
 
 class Human:
-    """A single person in a :class:`~familytree.network.Network`.
+    """A single person in a :class:`~familyrelations.network.Network`.
 
     Instances are compared and hashed by identity (the default for a plain
     ``object``), which is intentional: two people with the same name and age

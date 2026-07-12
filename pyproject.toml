@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "familytree"
+name = "familyrelations"
 version = "0.1.0"
 description = "A small networkx-backed library for modelling and querying family trees."
 readme = "README.md"
@@ -12,7 +12,7 @@ license = { text = "MIT" }
 authors = [
     { name = "Anirudh S", email = "anirudh2suresh@gmail.com" }
 ]
-keywords = ["family tree", "genealogy", "graph", "networkx"]
+keywords = ["family relations", "genealogy", "graph", "networkx"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -36,11 +36,11 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Anirudh-097/familytree"
-Issues = "https://github.com/Anirudh-097/familytree/issues"
+Homepage = "https://github.com/Anirudh-097/familyrelations"
+Issues = "https://github.com/Anirudh-097/familyrelations/issues"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/familytree"]
+packages = ["src/familyrelations"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

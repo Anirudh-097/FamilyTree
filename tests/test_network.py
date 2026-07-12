@@ -1,6 +1,6 @@
 import pytest
 
-from familytree import Human, Network
+from familyrelations import Human, Network
 
 
 @pytest.fixture

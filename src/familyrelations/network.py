@@ -21,7 +21,7 @@ from typing import Dict, List, Optional, Tuple
 
 import networkx as nx
 
-from familytree.human import Human
+from familyrelations.human import Human
 
 # (relation labels walked from person1 -> person2, in order) -> (label if
 # person2 is female, label if person2 is male)
