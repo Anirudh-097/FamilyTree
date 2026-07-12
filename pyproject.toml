@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
 authors = [
-    { name = "Your Name", email = "you@example.com" }
+    { name = "Anirudh S", email = "anirudh2suresh@gmail.com" }
 ]
 keywords = ["family tree", "genealogy", "graph", "networkx"]
 classifiers = [
@@ -36,8 +36,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/familytree"
-Issues = "https://github.com/yourusername/familytree/issues"
+Homepage = "https://github.com/Anirudh-097/familytree"
+Issues = "https://github.com/Anirudh-097/familytree/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/familytree"]
